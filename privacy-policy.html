@@ -550,10 +550,11 @@
             <input type="hidden" value="+91" name="country_code" id="country_code"
                 class="operations-supplierCapacity" />
 
-            <input name="modal_my_mobile2" class="form-control numeric rounded-0 micro-form-field" id="modal_my_mobile"
-                pattern="^[_0-9]+" placeholder="Phone number" type="text" value="" required="required"
+           <input name="modal_my_mobile2" class="form-control numeric rounded-0 micro-form-field" id="modal_my_mobile"
+               pattern="[0-9]{10}" maxlength="10" placeholder="Phone number" type="tel" value="" required="required"
                 data-error="Please enter your valid mobile number"
                 onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')">
+
             <input type="hidden" id="first_name" name="first_name">
             <input type="hidden" id="last_name" name="last_name">
             <input type="hidden" id="builder" name="builder" value="Nandan Ace Group">
@@ -586,10 +587,11 @@
                 <input type="text" id="fname" placeholder="Name" name="name"
                     class="form-control rounded-0 micro-form-field" required>
                 <div class="error" id="name_error"></div>
-                <input name="modal_my_mobile2" class="form-control  rounded-0 micro-form-field" id="modal_my_mobile"
-                    pattern="^[_0-9]+" placeholder="Phone number" type="text" value="" required="required"
-                    data-error="Please enter your valid mobile number"
-                    onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')">
+               <input name="modal_my_mobile2" class="form-control numeric rounded-0 micro-form-field" id="modal_my_mobile"
+               pattern="[0-9]{10}" maxlength="10" placeholder="Phone number" type="tel" value="" required="required"
+                data-error="Please enter your valid mobile number"
+                onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')">
+
                 <input type="datetime-local" id="date_time" name="date_time"
                     class=" my_country_name  form-control rounded-0 micro-form-field" />
                 <input type="submit" class="btn btn-info  effetMoveGradient" id="submitBtn">
@@ -1141,10 +1143,11 @@
                                 </select>
                                 <input type="hidden" value="91" name="country_code" id="country_code"
                                     class="operations-supplierCapacity" />
-                                <input name="modal_my_mobile2" class="form-control numeric rounded-0 micro-form-field"
-                                    id="modal_my_mobile" pattern="^[_0-9]+" placeholder="Phone number" type="text"
-                                    value="" required="required" data-error="Please enter your valid mobile number"
-                                    onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')">
+                               <input name="modal_my_mobile2" class="form-control numeric rounded-0 micro-form-field" id="modal_my_mobile"
+               pattern="[0-9]{10}" maxlength="10" placeholder="Phone number" type="tel" value="" required="required"
+                data-error="Please enter your valid mobile number"
+                onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')">
+
                                 <!--<input type="hidden" name="my_country_name" id="country" value="India">-->
 
                                 <input type="hidden" id="first_name" name="first_name">
@@ -1203,11 +1206,11 @@
                                 <input type="text" id="fname" placeholder="Name" name="name"
                                     class="form-control rounded-0 micro-form-field" required>
                                 <div class="error" id="name_error"></div>
-                                <input name="modal_my_mobile2" id="modal_my_mobile"
-                                    class="form-control rounded-0 micro-form-field" pattern="^[_0-9]+"
-                                    placeholder="Phone number" type="text" value="" required="required"
-                                    data-error="Please enter your valid mobile number"
-                                    onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')">
+                                <input name="modal_my_mobile2" class="form-control numeric rounded-0 micro-form-field" id="modal_my_mobile"
+               pattern="[0-9]{10}" maxlength="10" placeholder="Phone number" type="tel" value="" required="required"
+                data-error="Please enter your valid mobile number"
+                onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')">
+
                                 <div style="display: flex; flex-direction: row; justify-content: space-between;">
                                     <label for="date_time">Enter (date and time):</label>
                                     <input type="datetime-local" id="date_time" name="date_time"
